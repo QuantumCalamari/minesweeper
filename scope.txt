@@ -1,0 +1,21 @@
+- press random key
+	1209, 459
+	1209, 747
+	1749, 747
+	1749, 459
+
+each square is:
+	18 x 18
+	
+	
+- parse data from window
+
+algorithm:
+
+- open game
+- click random square
+- read game data (using colours)
+	- raster through every square, if square is clicked assess if it was previous clicked
+- add game data to array
+- if n, look for n unclicked squares
+- 
